@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen AC Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Willkommen Logo">
+            </div>
+            <div class="header-content">
+                <h1>Willkommen AC Service</h1>
+                <p>Your Trusted Partner for Professional AC Solutions</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <img src="images/landing-page.png" alt="AC Service Banner" class="banner-image">
+            <div class="banner-content">
+                <h2>Professional AC Services in Qatar</h2>
+                <p>Expert solutions for all your air conditioning needs</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <!-- <section id="about" class="about-section">
+            <div class="container">
+                <h2>Why Choose Willkommen AC Service?</h2>
+                <div class="about-content">
+                    <div class="text-content">
+                        <p>With over 10 years of experience, we provide comprehensive AC solutions for residential and commercial properties. Our certified technicians ensure your cooling systems operate at peak efficiency.</p>
+                        <ul class="features">
+                            <li>24/7 Emergency Service</li>
+                            <li>Certified Technicians</li>
+                            <li>Genuine Parts</li>
+                            <li>Warranty Service</li>
+                            <li>Competitive Pricing</li>
+                            <li>Same Day Service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="services">
+            <div class="container">
+                <!-- Left side: Services -->
+                <div class="service-grid">
+                    <div class="service-card">
+                        <h3>Basic AC Service</h3>
+                        <p>Complete cleaning and maintenance check includes:</p>
+                        <ul>
+                            <li>Indoor & outdoor unit cleaning</li>
+                            <li>Filter cleaning</li>
+                            <li>Basic maintenance</li>
+                        </ul>
+                        <p class="price">QR 75*</p>
+                        <button onclick="redirectToWhatsApp('Hi, I would like to book Basic AC Service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Deep Cleaning and Gas Top-up</h3>
+                        <p>Thorough cleaning and sanitization includes:</p>
+                        <ul>
+                            <li>Deep cleaning of all components</li>
+                            <li>Gas pressure check</li>
+                            <li>Gas top-up if required</li>
+                        </ul>
+                        <p class="price">QR 99*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Deep Cleaning and Gas Top-up service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Repair Service</h3>
+                        <p>Expert diagnosis includes:</p>
+                        <ul>
+                            <li>Complete system check</li>
+                            <li>Problem identification</li>
+                            <li>Repair estimation</li>
+                        </ul>
+                        <p class="price">QR 49*</p>
+                        <button onclick="redirectToWhatsApp('Hi, I would like to book Repair Service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Gas Top-up</h3>
+                        <p>AC gas top-up service includes:</p>
+                        <ul>
+                            <li>Gas level check</li>
+                            <li>Pressure testing</li>
+                            <li>Gas refilling</li>
+                        </ul>
+                        <p class="price">QR 69*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Gas Top-up service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Complete Gas Refilling</h3>
+                        <p>Comprehensive gas service includes:</p>
+                        <ul>
+                            <li>Complete gas removal</li>
+                            <li>Leak detection</li>
+                            <li>New gas refilling</li>
+                        </ul>
+                        <p class="price">QR 119*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Complete Gas Refilling service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Water Leakage Repair</h3>
+                        <p>Leakage repair service includes:</p>
+                        <ul>
+                            <li>Leak detection</li>
+                            <li>Drain pipe cleaning</li>
+                            <li>Complete repair</li>
+                        </ul>
+                        <p class="price">QR 99*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Water Leakage Repair service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Gas Leakage Repair</h3>
+                        <p>Gas leak repair includes:</p>
+                        <ul>
+                            <li>Leak detection</li>
+                            <li>Pipe inspection</li>
+                            <li>Leak fixing</li>
+                        </ul>
+                        <p class="price">QR 99*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Gas Leakage Repair service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Motor Bearing Change</h3>
+                        <p>Bearing replacement includes:</p>
+                        <ul>
+                            <li>Bearing inspection</li>
+                            <li>Replacement</li>
+                            <li>Testing</li>
+                        </ul>
+                        <p class="price">QR 99*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Motor Bearing Change service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Capacitor 50uf Change</h3>
+                        <p>Capacitor replacement includes:</p>
+                        <ul>
+                            <li>Capacitor testing</li>
+                            <li>Replacement</li>
+                            <li>Performance check</li>
+                        </ul>
+                        <p class="price">QR 120*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Capacitor Change service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>AC Relocation</h3>
+                        <p>Relocation service includes:</p>
+                        <ul>
+                            <li>Dismantling</li>
+                            <li>Transportation</li>
+                            <li>Reinstallation</li>
+                        </ul>
+                        <p class="price">QR 299*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book AC Relocation service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>AC Remove</h3>
+                        <p>Removal service includes:</p>
+                        <ul>
+                            <li>Safe dismantling</li>
+                            <li>Gas recovery</li>
+                            <li>Unit removal</li>
+                        </ul>
+                        <p class="price">QR 99*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book AC Removal service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Isolation Change</h3>
+                        <p>Isolation replacement includes:</p>
+                        <ul>
+                            <li>Old isolation removal</li>
+                            <li>New isolation fitting</li>
+                            <li>Quality check</li>
+                        </ul>
+                        <p class="price">QR 149*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Isolation Change service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Power Issue Repair</h3>
+                        <p>Electrical repair includes:</p>
+                        <ul>
+                            <li>Circuit diagnosis</li>
+                            <li>Wiring check</li>
+                            <li>Power restoration</li>
+                        </ul>
+                        <p class="price">QR 129*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Power Issue Repair service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Pipe Change</h3>
+                        <p>Pipe replacement includes:</p>
+                        <ul>
+                            <li>Old pipe removal</li>
+                            <li>New pipe installation</li>
+                            <li>Leak testing</li>
+                        </ul>
+                        <p class="price">QR 279*</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Pipe Change service.', '_blank')">Book
+                            Now</button>
+                    </div>
+
+                    <div class="service-card">
+                        <h3>Compressor Change</h3>
+                        <p>Compressor replacement includes:</p>
+                        <ul>
+                            <li>Old compressor removal</li>
+                            <li>New compressor fitting</li>
+                            <li>System testing</li>
+                        </ul>
+                        <p class="price">QR 199* Labour Charge</p>
+                        <button
+                            onclick="redirectToWhatsApp('Hi, I would like to book Compressor Change service.', '_blank')">Book
+                            Now</button>
+                    </div>
+                </div>
+
+                <!-- Right side: Image Gallery -->
+                <div class="work-gallery">
+                    <h2>Our Work</h2>
+                    <div class="image-grid">
+                        <img src="images/Image-1.jpeg" alt="AC Service Work 1">
+                        <img src="images/Image-2.jpeg" alt="AC Service Work 2">
+                        <img src="images/Image-3.jpeg" alt="AC Service Work 3">
+                        <!-- <img src="images/Image-4.jpg" alt="AC Service Work 4"> -->
+                        <img src="images/Image-5.jpeg" alt="AC Service Work 4">
+                        <img src="images/Image-6.jpg" alt="AC Service Work 4">
+                        <img src="images/Image-7.jpg" alt="AC Service Work 4">
+                        <img src="images/Image-8.jpg" alt="AC Service Work 4">
+                        <img src="images/Image-9.jpg" alt="AC Service Work 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="cart-section">
+            <div class="container">
+                <h2>Shopping Cart</h2>
+                <div id="cart-items"></div>
+                <div id="cart-total">Total: QR 0.00</div>
+                <button id="checkout-btn" onclick="checkout()">Checkout</button>
+            </div>
+        </section> -->
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+97433667970">3366 7970</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:willkoacservices@gmail.com">willkoacservices@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Willkommen Trading Contracting And Services,<br>
+                        Street No. 501, Ezdan Oasis,<br>
+                        Al Wukair, Qatar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy;2025 Willkommen AC Service. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
